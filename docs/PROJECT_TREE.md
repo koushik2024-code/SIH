@@ -1,0 +1,67 @@
+# Complete project files
+
+```text
+ntro_content_platform_v2/
+  .env.example
+  .gitignore
+  README.md
+  app/__init__.py
+  app/api/__init__.py
+  app/api/assets.py
+  app/api/auth.py
+  app/api/citations.py
+  app/api/publishing.py
+  app/api/route.py
+  app/api/sources.py
+  app/api/transform.py
+  app/chunking.py
+  app/config.py
+  app/db.py
+  app/diagnostics.py
+  app/embeddings.py
+  app/ingest.py
+  app/languages.py
+  app/limits.py
+  app/llm.py
+  app/main.py
+  app/media.py
+  app/prompts.py
+  app/publishing.py
+  app/rag.py
+  app/render.py
+  app/repository.py
+  app/revisions.py
+  app/router.py
+  app/schemas.py
+  app/security.py
+  app/utils.py
+  app/vector_store.py
+  app/verify.py
+  data/media_library/README.txt
+  docs/ARCHITECTURE.md
+  docs/CHANGES.md
+  docs/OUTPUT_FORMATS.md
+  docs/OUTPUT_PROMPTS.md
+  docs/PROJECT_TREE.md
+  docs/SECURITY.md
+  docs/STUDIO_SETUP.md
+  docs/UPDATE_SETUP.md
+  docs/VALIDATION.md
+  frontend/app.js
+  frontend/index.html
+  frontend/refinements.css
+  frontend/style.css
+  requirements-dev.txt
+  requirements.txt
+  scripts/__init__.py
+  scripts/check_setup.py
+  scripts/create_user.py
+  scripts/download_models.py
+  scripts/setup_env.py
+  tests/conftest.py
+  tests/test_platform.py
+  tests/test_studio.py
+  tests/test_updates.py
+```
+
+Keep existing .env, .venv and data directories when upgrading. Models, secrets and real user data are not bundled.
